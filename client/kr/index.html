@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+    <!-- welcome Section -->
+    <div class="relative py-60 shadow-md">
+        <img src="./img/welcome.jpg" alt="Cinema Banner" class="absolute inset-0 w-full h-full object-cover">
+        <div class="absolute bottom-10 left-10">
+            <h1 class="text-5xl font-bold text-white font-sans">Welcome to Olive Cinema</h1>
+        </div>
+    </div>
+
+    <!-- Country Specific Section -->
+    <div class="text-center bg-white py-3 ">
+        <h2 class="text-2xl font-semibold text-gray-800" id="cinema-location">Olive Cinema in Korea</h2>
+    </div>
+
+    <!-- Date Selection Section -->
+    <div class="py-4 bg-white shadow-md">
+        <div class="flex justify-center gap-4">
+            <button class="px-4 py-2 bg-white  rounded">12/21</button>
+            <button class="px-4 py-2 bg-white rounded">12/22</button>
+            <button class="px-4 py-2 bg-white rounded">12/23</button>
+            <button class="px-4 py-2 bg-gray-200 rounded">12/24</button>
+            <button class="px-4 py-2 bg-white rounded">12/25</button>
+            <button class="px-4 py-2 bg-white rounded">12/26</button>
+            <button class="px-4 py-2 bg-white rounded">12/27</button>
+        </div>
+    </div>
+
+    <!-- Movie Selection Section -->
+    <div class="mt-8 mx-auto max-w-4xl">
+        <div class="flex flex-col gap-4">
+            <!-- Movie 1 -->
+            <div class="bg-white rounded-lg shadow-md p-4 flex items-center gap-4">
+                <img src="./img/harbin.webp" alt="Movie Poster" class="rounded-lg w-32">
+                <div>
+                    <h3 class="text-lg font-bold text-gray-800">하얼빈</h3>
+                    <p class="text-sm text-gray-600">장르: <span>드라마</span> / 상영시간: <span>114</span> 분 / 개봉일: <span>12. 24. 2024</span></p>
+                    <div class="flex gap-2 mt-2">
+                        <button class="border border-blue-500 text-blue-500 bg-white px-2 py-1 rounded text-sm">3:00 PM</button>
+                        <button class="border border-blue-500 text-blue-500 bg-white px-2 py-1 rounded text-sm">5:30 PM</button>
+                        <button class="border border-blue-500 text-blue-500 bg-white px-2 py-1 rounded text-sm">8:00 PM</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Movie 2 -->
+            <div class="bg-white rounded-lg shadow-md p-4 flex items-center gap-4">
+                <img src="./img/veteran2.webp" alt="Movie Poster" class="rounded-lg w-32">
+                <div>
+                    <h3 class="text-lg font-bold text-gray-800">베테랑 2</h3>
+                    <p class="text-sm text-gray-600">장르: <span>액션</span> / 상영시간: <span>118</span> 분 / 개봉일: <span>09. 13. 2024</span></p>
+                    <div class="flex gap-2 mt-2">
+                        <button class="border border-blue-500 text-blue-500 bg-white px-2 py-1 rounded text-sm">2:00 PM</button>
+                        <button class="border border-blue-500 text-blue-500 bg-white px-2 py-1 rounded text-sm">4:30 PM</button>
+                        <button class="border border-blue-500 text-blue-500 bg-white px-2 py-1 rounded text-sm">7:00 PM</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Movie 3 -->
+            <div class="bg-white rounded-lg shadow-md p-4 flex items-center gap-4">
+                <img src="./img/pastLives.webp" alt="Movie Poster" class="rounded-lg w-32">
+                <div>
+                    <h3 class="text-lg font-bold text-gray-800">패스트 라이브즈</h3>
+                    <p class="text-sm text-gray-600">장르: <span>로맨스</span> / 상영시간: <span>105</span> 분 / 개봉일: <span>03. 06. 2024</span></p>
+                    <div class="flex gap-2 mt-2">
+                        <button class="border border-blue-500 text-blue-500 bg-white px-2 py-1 rounded text-sm">1:00 PM</button>
+                        <button class="border border-blue-500 text-blue-500 bg-white px-2 py-1 rounded text-sm">3:00 PM</button>
+                        <button class="border border-blue-500 text-blue-500 bg-white px-2 py-1 rounded text-sm">5:00 PM</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
